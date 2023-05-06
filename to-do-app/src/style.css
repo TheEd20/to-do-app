@@ -1,0 +1,40 @@
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;    
+}
+
+.divider{
+    width: 100%;
+    padding: 0.3px;  
+    background-color: #ddd;     
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.lista{
+    background-color: #eee;
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;      
+}
+
+.task{
+    padding: 5px;
+}
+
+.task-single{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-delete{
+    cursor: pointer;
+}
